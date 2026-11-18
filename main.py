@@ -22,9 +22,9 @@ templates = Jinja2Templates(directory="templates")
 # ==========================================
 # EMAIL ALERT CONFIGURATION
 # ==========================================
-SENDER_EMAIL = "saluaneena@gmail.com"      # <-- PUT YOUR SENDING EMAIL HERE
-SENDER_PASSWORD = "csuo uwey pndd hukb"    # <-- PUT YOUR 16-DIGIT APP PASSWORD HERE
-RECEIVER_EMAIL = "aneenamssalu@gmail.com"    # Target contact
+SENDER_EMAIL = "<-- PUT YOUR SENDING EMAIL HERE" 
+SENDER_PASSWORD = "PUT YOUR 16-DIGIT APP PASSWORD HERE"    
+RECEIVER_EMAIL = "Target contact"
 
 def send_email_async(subject, body):
     """Sends email in a background thread so the video doesn't freeze."""
